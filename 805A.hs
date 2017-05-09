@@ -1,22 +1,25 @@
+-- Fake NP
 -- http://codeforces.com/problemset/problem/805/A
 
--- Тавак И Саид — хорошие друзья.
--- Саид очень смешной, сегодня он попросил Тавака решить следующую задачу вместо задачи о самом длинном пути.
--- Даны l и r. Для каждого целого числа между l и r, включительно, выпишем все их целочисленные делители кроме 1.
--- Найдите число, которое мы выписали максимальное число раз.
--- Решите эту задачу, чтобы показать, что она не является NP-полной.
+-- Tavak and Seyyed are good friends.
+-- Seyyed is very funny and he told Tavak to solve the following problem instead of longest-path.
 
--- Входные данные: Первая строка содержит два целых числа l и r (2 ≤ l ≤ r ≤ 109).
--- Выходные данные: Выведите одно целое число: число, которое встречается в выписанных делителях максимальное число раз.
--- Если существует несколько ответов, выведите любой.
+-- You are given l and r. For all integers from l to r, inclusive, we wrote down all of their integer divisors except 1.
+-- Find the integer that we wrote down the maximum number of times.
 
--- Пример 1
--- Входные данные:19 29
--- Выходные данные:2
+-- Solve the problem to show that it's not a NP problem.
 
--- Пример 2
--- Входные данные:3 6
--- Выходные данные:3
+-- Input: The first line contains two integers l and r (2 ≤ l ≤ r ≤ 109).
+-- Output: Print single integer, the integer that appears maximum number of times in the divisors.
+-- If there are multiple answers, print any of them.
+
+-- Example 1
+-- Input: 19 29
+-- Output: 2
+
+-- Example 2
+-- Input: 3 6
+-- Output: 3
 
 import Data.List
 import Data.Ord
